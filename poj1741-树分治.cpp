@@ -1,3 +1,6 @@
+/*
+求树上任意两点距离小于等于K的所有点对数。
+*/
 #include <cstdio>
 #include <cstring>
 #include <iostream>
