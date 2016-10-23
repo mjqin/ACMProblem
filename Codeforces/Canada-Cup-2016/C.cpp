@@ -1,5 +1,7 @@
 // http://codeforces.com/contest/725/problem/C
 // 构造一个矩阵，使得一个给定字符串中左右字母都相邻，字母认为是相邻的如果他们在矩阵中相邻或者对角。
+// 构造：先找出两个重复字母的位置，将整个串分为三段，中间一段比较特殊，所以先放入矩阵，然后再放两端的。
+
 #include <cstdio>
 #include <cstring>
 #include <iostream>
