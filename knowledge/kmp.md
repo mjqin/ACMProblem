@@ -24,7 +24,7 @@ int slen, tlen;
 
 void getNext(){
     fail[1] = 0;
-    for(int i=1;i<=slen){
+    for(int i=1;i<=slen;i++){
         int p = fail[i];
         while(p && s[p+1] != s[i+1]) p = fail[p];
         fail[i+1] = p + (s[p+1] == s[i+1]);
